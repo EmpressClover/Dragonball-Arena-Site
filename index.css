@@ -4,7 +4,9 @@
   
   body {
     margin: 0px;
-    font-family: 'segoe ui';
+    background-image: url(images/bgpattern.png);
+     background-size: 1400px 1400px;
+     background-color: #e7e7e7;
   }
   
   .nav {
@@ -114,6 +116,7 @@
       overflow-y: hidden;
       top: 60px;
       left: 00px;
+      z-index: 2;
     }
     
     .nav > .nav-links > ul li a {
@@ -151,3 +154,137 @@
       overflow-y: auto;
     }
   }
+
+.headerbanner, .bannerheader {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.header {
+  position: absolute;
+  z-index: 2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 90px;
+  left:150px;
+  text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
+  color: #e7e7e7 
+}
+
+
+.header2 {
+  position: absolute;
+  z-index: 2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  left:40px;
+  top: 100px;
+  text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
+  color: #e7e7e7;
+  text-transform: uppercase;
+
+}
+
+.discordlogo {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  top:4px;
+}
+
+.headersubtext {
+  position: absolute;
+  z-index: 2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  left:240px;
+  top: 260px;
+  text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
+  color: #e7e7e7;
+  background: #0c0c15;
+  padding: 3px 10px 3px 10px;
+}
+
+.headersubtext2 {
+  position: absolute;
+  z-index: 2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  left:335px;
+  top: 295px;
+  text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
+  color: #e7e7e7;
+  background: #0c0c15;
+  padding: 0px 10px 3px 10px;
+}
+
+.headersubtext2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.dragonballtext {
+  color: #e87b2a;
+}
+
+
+
+@media (max-width: 1580px)
+{
+  .header {
+    font-size: 80px;
+  }
+
+  .header2 {
+    font-size: 70px;
+  }
+
+  .headersubtext {
+    top: 240px !important;
+    left: 220px !important;
+  }
+
+  .headersubtext2 {
+    top: 273px !important;
+    left: 300px !important;
+  }
+}
+
+
+@media (max-width: 1280px)
+{
+  .header {
+    font-size: 50px;
+    left: 80px !important;
+  }
+
+  .header2 {
+    font-size: 40px;
+    top: 60px !important;
+  }
+
+  .headersubtext {
+    top: 130px !important;
+    left: 50px !important;
+  }
+
+  .headersubtext2 {
+    top: 164px !important;
+    left: 140px !important;
+  }
+}
+
+
+@media (max-width: 800px)
+{
+  .header, .header2, .headersubtext, .headersubtext2 {
+visibility: hidden;
+  }
+
+}
