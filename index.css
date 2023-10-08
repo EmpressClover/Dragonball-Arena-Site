@@ -1,12 +1,18 @@
 * {
     box-sizing: border-box;
   }
+
+  
   
   body {
     margin: 0px;
     background-image: url(images/bgpattern.png);
      background-size: 1400px 1400px;
      background-color: #e7e7e7;
+  }
+
+  a {
+    text-decoration: none;
   }
   
   .nav {
@@ -191,7 +197,8 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
   font-size: 90px;
-  left:150px;
+  margin-left: 150px;
+  margin-top: 180px;
   text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
   color: #e7e7e7 
 }
@@ -203,8 +210,8 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
   font-size: 80px;
-  left:40px;
-  top: 100px;
+  margin-left: 50px;
+  margin-top: 260px;
   text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
   color: #e7e7e7;
   text-transform: uppercase;
@@ -215,7 +222,7 @@
   position: relative;
   width: 22px;
   height: 22px;
-  top:4px;
+  margin-top: auto;
 }
 
 .headersubtext {
@@ -224,8 +231,8 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 20px;
-  left:240px;
-  top: 260px;
+  margin-left: 256px;
+  margin-top: 351px;
   text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
   color: #e7e7e7;
   background: #0c0c15;
@@ -238,13 +245,14 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 20px;
-  left:335px;
-  top: 295px;
+  margin-left: 345px;
+  margin-top: 383px;
   text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
   color: #e7e7e7;
   background: #0c0c15;
   padding: 0px 10px 3px 10px;
 }
+
 
 .headersubtext2 a {
   color: inherit;
@@ -268,13 +276,13 @@
   }
 
   .headersubtext {
-    top: 240px !important;
-    left: 220px !important;
+    margin-left: 226px;
+    margin-top: 337px;
   }
 
   .headersubtext2 {
-    top: 273px !important;
-    left: 300px !important;
+    margin-left: 316px;
+    margin-top: 369px;
   }
 }
 
@@ -283,24 +291,27 @@
 {
   .header {
     font-size: 50px;
-    left: 80px !important;
+    margin-left: 121px;
+    margin-top: 237px;
   }
 
   .header2 {
     font-size: 40px;
-    top: 60px !important;
+    margin-left: 83px;
+    margin-top: 291px;
   }
 
   .headersubtext {
-    top: 130px !important;
-    left: 50px !important;
+    margin-left: 96px;
+    margin-top: 338px;
   }
 
   .headersubtext2 {
-    top: 164px !important;
-    left: 140px !important;
+    margin-left: 186px;
+    margin-top: 369px;
   }
 }
+
 
 
 @media (max-width: 800px)
@@ -347,16 +358,17 @@ visibility: hidden;
 }
 
 .newstitle {
-  font-size: 22px;
+  font-size: 21px;
   font-family: 'anton','sans-serif';
   background-color: #0c0c15;
   color: #e7e7e7;
-  margin: 20px 20px 20px 20px;
+margin-top: -24px;
+margin-left: 20px;
   padding-left: 5px;
   width: 321px;
+  height: auto;
   position: relative;
   text-align: center;
-  top: -44px;
   overflow:hidden; 
   white-space:nowrap; 
   text-overflow: ellipsis;
