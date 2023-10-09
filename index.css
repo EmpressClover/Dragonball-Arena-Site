@@ -85,6 +85,44 @@
     margin-left: 5px;
  }
 
+
+ .credentials {
+  display: inline;
+  float: right;
+  font-size: 18px;
+  padding-right: 60px;
+  margin: auto;
+ }
+
+
+ .signin {
+  background-color: #e87b2a;
+  border: none;
+  color: #0c0c15;
+  padding: 2px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'anton','serif-sans';
+  
+ }
+
+
+.register {
+  background-color: #0e0e0e00;
+  border: 1px solid #e87b2a;
+  color: #0c0c15;
+  padding: 1px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'anton','serif-sans';
+}
+
+
+
   
   @media (max-width:750px) {
 
@@ -515,3 +553,5 @@ footer {
   margin-top: 50px;
   font-size: 15px;
 }
+
+
