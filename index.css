@@ -222,7 +222,7 @@
   position: relative;
   width: 22px;
   height: 22px;
-  margin-top: auto;
+  top: 4px;
 }
 
 .headersubtext {
@@ -316,11 +316,29 @@
 
 @media (max-width: 800px)
 {
-  .header, .header2, .headersubtext, .headersubtext2 {
-visibility: hidden;
+  .header {
+    font-size: 50px;
+    margin-left: 8px;
+    margin-top: 237px;
   }
 
+  .header2 {
+    font-size: 40px;
+    margin-left: 11px;
+    margin-top: 291px;
+  }
+
+  .headersubtext {
+    margin-left: 10px;
+    margin-top: 338px;
+  }
+
+  .headersubtext2 {
+    margin-left: 10px;
+    margin-top: 369px;
+  }
 }
+
 
 
 .realbody {
@@ -349,7 +367,7 @@ visibility: hidden;
   flex-direction: row;
   align-items: flex-end;
   flex-wrap: wrap;
-  margin: auto;
+  justify-content: center;
 }
 
 .newsbanner {
@@ -372,4 +390,115 @@ margin-left: 20px;
   overflow:hidden; 
   white-space:nowrap; 
   text-overflow: ellipsis;
+}
+
+
+.top5 {
+  display: flex; 
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.top5players, .top5clans {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: 46px;
+}
+
+
+.top5container {
+  margin-top: -29px;
+}
+
+
+.top5playerslabel, .top5clanslabel {
+  width: 352px;
+  height: 38px;
+  font-size: 25px;
+  font-family: 'anton','sans-serif';
+  background-color: #0c0c15;
+  padding-left: 5px;
+  color: #e87b2a;
+  text-align: center;
+}
+
+.ranktop5 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  border: 1px solid #e87b2a;
+    width: 352px;
+  height: 38px;
+  margin-top: 10px;
+}
+
+
+.number1rank {
+  width: 34px;
+  height: 38px;
+  font-size: 25px;
+  font-family: 'anton','sans-serif';
+  background-color: #e87b2a;
+  color: #e7e7e7;
+  text-align: center;
+  margin-top: 0px;
+}
+
+
+.number1name {
+  width: 320px;
+  height: 38px;
+  font-size: 25px;
+  font-family: 'anton','sans-serif';
+  background-color: #e87c2a00;
+  color: #e87b2a;
+  margin-top: 1px;
+  float: left;
+  margin-left: 6px;
+}
+
+.top5name {
+  width: 320px;
+  height: 38px;
+  font-size: 25px;
+  font-family: 'anton','sans-serif';
+  background-color: #e87c2a00;
+  color: #0c0c15;
+  margin-top: 1px;
+  float: left;
+  margin-left: 6px;
+}
+
+
+.top5rank {
+  width: 34px;
+  height: 38px;
+  font-size: 25px;
+  font-family: 'anton','sans-serif';
+  background-color: #0c0c15;
+  color: #e87b2a;
+  text-align: center;
+  margin-top: 0px;
+}
+
+
+.ingamepreviews {
+  height: 38px;
+  font-size: 25px;
+  font-family: 'anton','sans-serif';
+  background-color: #0c0c15;
+  color: #e87b2a;
+  text-align: center;
+  margin: auto;
+}
+
+.ingamescreenshots {
+  margin-top: 70px;
+  max-width: 1024px;
+  width: 100%;
 }
