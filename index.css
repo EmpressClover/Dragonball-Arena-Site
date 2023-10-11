@@ -573,7 +573,7 @@ footer {
   margin-top: 15px;
 }
 
-.usernametext, .passwordtext {
+.usernametext, .passwordtext, .createuser, .createemail, .createpass, .confirmpass {
   max-width: 424px;
   width: 100%;
   background-color: #e87b2a;
@@ -584,7 +584,7 @@ footer {
   display: block;
 }
 
-#username, #password {
+#username, #password, #createusername, #email, #createpassword, #confirmpassword {
   position: relative;
   display: block;
   margin : 0 auto;
@@ -606,6 +606,7 @@ footer {
   display: block;
   margin : 0 auto;
   margin-top: 15px;
+  cursor: pointer;
  }
 
 .remember {
