@@ -22,3 +22,7 @@ var images = [
     img.title = images[which];
     
     
+    $(document).ready(function() {
+        $('.newsimage').hide();
+        $('.newsimage:lt(5)').show();
+    });
