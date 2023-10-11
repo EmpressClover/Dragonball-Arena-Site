@@ -9,6 +9,9 @@
     background-image: url(images/bgpattern.png);
      background-size: 1400px 1400px;
      background-color: #e7e7e7;
+     min-height: 100%;
+     height: auto !important;
+     height: 100%;
   }
 
   a {
@@ -105,7 +108,6 @@
   display: inline-block;
   font-size: 15px;
   font-family: 'anton','serif-sans';
-  
  }
 
 
@@ -382,6 +384,10 @@
 .realbody {
  display: flex; 
  flex-direction: column;
+ justify-content: center;
+ min-height: 100%;
+ height: auto !important;
+ height: 100%;
 }
 
 
@@ -396,6 +402,7 @@
   border-style: solid;
   border-color: #e87b2a;
   background-color: #e87b2a;
+  text-transform: uppercase;
 }
 
 
@@ -548,10 +555,79 @@ footer {
   font-style: italic;
   font-weight: 100;
   text-align: center;
-  padding: 1px;
   position: relative;
   margin-top: 50px;
   font-size: 15px;
+  width: 100%;
+  bottom: 0;
 }
 
 
+.loginlabel, .passlabel {
+  position: relative;
+  border: 1px solid #e87b2a;
+  max-width: 365px;
+  width: 100%;
+  height: 77px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.usernametext, .passwordtext {
+  max-width: 424px;
+  width: 100%;
+  background-color: #e87b2a;
+  text-align: center;
+  font-family: 'anton', 'sans-serif';
+  position: relative;
+  font-size: 20px;
+  display: block;
+}
+
+#username, #password {
+  position: relative;
+  display: block;
+  margin : 0 auto;
+  top: 10px;
+  text-align: center;
+}
+
+
+.submit {
+  background-color: #e87b2a;
+  border: none;
+  color: #0c0c15;
+  padding: 2px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'anton','serif-sans';
+  display: block;
+  margin : 0 auto;
+  margin-top: 15px;
+ }
+
+.remember {
+  display: block;
+  margin : 0 auto;
+  margin-top: 15px;
+  text-align: center;
+ }
+
+
+ .forgotpass {
+  background-color: #e87b2a;
+  border: none;
+  color: #0c0c15;
+  padding: 2px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'anton','serif-sans';
+  display: block;
+  margin : 0 auto;
+  margin-top: 15px;
+  width: 165px;
+ }
