@@ -26,3 +26,66 @@ var images = [
         $('.newsimage').hide();
         $('.newsimage:lt(5)').show();
     });
+
+
+    $(document).ready(function(){
+        $(".rankrequired").change(function(){
+            $( "select option:selected").each(function(){
+                if($(this).attr("value")=="reset"){
+                    $(".questcontainer").show();
+                }
+
+                if($(this).attr("value")=="earthling"){
+                    $(".questcontainer").hide();
+                    $(".earthling").show();
+                }
+
+                if($(this).attr("value")=="saibaman"){
+                    $(".questcontainer").hide();
+                    $(".saibaman").show();
+                }
+
+                if($(this).attr("value")=="namekian"){
+                    $(".questcontainer").hide();
+                    $(".namekian").show();
+                }
+
+                if($(this).attr("value")=="kingkai"){
+                    $(".questcontainer").hide();
+                    $(".kingkai").show();
+                }
+
+                if($(this).attr("value")=="android"){
+                    $(".questcontainer").hide();
+                    $(".android").show();
+                }
+
+                if($(this).attr("value")=="sayian"){
+                    $(".questcontainer").hide();
+                    $(".sayian").show();
+                }
+
+                if($(this).attr("value")=="supersaiyan"){
+                    $(".questcontainer").hide();
+                    $(".supersaiyan").show();
+                }
+
+                if($(this).attr("value")=="supremekai"){
+                    $(".questcontainer").hide();
+                    $(".supremekai").show();
+                }
+
+                if($(this).attr("value")=="majin"){
+                    $(".questcontainer").hide();
+                    $(".majin").show();
+                }
+
+                if($(this).attr("value")=="godofdestruction"){
+                    $(".questcontainer").hide();
+                    $(".godofdestruction").show();
+                }
+            });
+        }).change();
+    });
+
+

@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dragonball Arena Register</title>
+    <title>Dragonball Arena Quests</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -37,7 +37,7 @@
 
       <div class="credentials">
         <a href="loginpage.html"><p class="signin">Login</p></a>
-        <a href="#" target="_blank"><p class="register">Register</p></a>
+        <a href="registerpage.html"><p class="register">Register</p></a>
       </div>
 
     </div>
@@ -61,38 +61,39 @@
 
 <div class="realbody">
 
-  <div class="pagetitle">Register</div>
+  <div class="pagetitle"> Quests </div>
 
-  <form action="   ">
+  
+    <div class="insidequest">
 
-    <div class="loginlabel">
-        <label for="username" class="createuser" min="3" max="16">Username</label>
-        <input type="text" id="createusername" name="username">
-        <p class="registerdescription">Username must be between 3 characters and 16 characters long and use only letter or number characters.</p>
-    </div>
+        <div class="questinformationcontainer">
+        <p class="questinformation">Quest Information</p>
 
-    <div class="sublabel">
-        <label for="email" class="createemail">Email Address</label>
-        <input type="email" id="email" name="email">
-    </div>
+        <p class="insidequestnamelabel">Quest Name: The Super Saiyan!</p>
 
-    <div class="passlabel">
-        <label for="password" class="createpass">Password</label>
-        <input type="password" id="createpassword" name="password">
-        <p class="registerdescription">Password must be at least 6 characters long, must contain letters in mixed case and must contain numbers.</p>
-    </div>
+        <p class="questdescription">Win 5 Battles in a row with Krillin (0/5)</p>
+        <p class="questdescription">Win 15 Battles with Gohan (0/15)</p>
 
-    <div class="sublabel">
-        <label for="password" class="confirmpass">Confirm Passowrd</label>
-        <input type="password" id="confirmpassword" name="password">
-    </div>
+        <p class="questcompletioncheck">Quest In Progress</p>
 
+        </div>
+
+        <img src="/images/questimages/examplequest.jpg" class="questimage">
+
+
+        <div class="questinformationcontainer">
+            <p class="questreward">Quest Reward</p>
     
-    <input type="submit" class="submit" value="Confirm Registration"> 
+            <p class="characterunlocked">Character Unlocked:</p>
 
-</form>
+            <img src="/images/characterpictures/examplefacepic.jpg" class="facepicture">
+
+            <p class="unlockedreward">Super Saiyan Goku</p>
+
+        </div>
 
     </div>
+    
 </div>
 
 

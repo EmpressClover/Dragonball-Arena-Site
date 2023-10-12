@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dragonball Arena Register</title>
+    <title>Dragonball Arena Quests</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -37,7 +37,7 @@
 
       <div class="credentials">
         <a href="loginpage.html"><p class="signin">Login</p></a>
-        <a href="#" target="_blank"><p class="register">Register</p></a>
+        <a href="registerpage.html"><p class="register">Register</p></a>
       </div>
 
     </div>
@@ -61,38 +61,68 @@
 
 <div class="realbody">
 
-  <div class="pagetitle">Register</div>
+  <div class="pagetitle"> Quests </div>
 
-  <form action="   ">
+  <select class="rankrequired">
+    <option value="reset">Rank Required</option>
+    <option value="earthling">Earthling</option>
+    <option value="saibaman">Saibaman</option>
+    <option value="namekian">Namekian</option>
+    <option value="kingkai">King Kai</option>
+    <option value="android">Android</option>
+    <option value="sayian">Sayian</option>
+    <option value="supersaiyan">Super Sayian</option>
+    <option value="supremekai">Supreme Kai</option>
+    <option value="majin">Majin</option>
+    <option value="godofdestruction">God of Destruction</option>
+  </select>
 
-    <div class="loginlabel">
-        <label for="username" class="createuser" min="3" max="16">Username</label>
-        <input type="text" id="createusername" name="username">
-        <p class="registerdescription">Username must be between 3 characters and 16 characters long and use only letter or number characters.</p>
+
+
+  <div class="questpage">
+
+    <div class="questcontainer supersaiyan">
+
+            <p class="questname">Quest: The Super Saiyan!</p> 
+
+
+        <img src="/images/questimages/examplequest.jpg" class="questimage">
+
+
+          <p class="rankname">Rank Required: Super Sayian</p> 
+
+        <a href="questexamplepage.html" target="_blank"><p class="viewquest">View Quest</p></a>
     </div>
 
-    <div class="sublabel">
-        <label for="email" class="createemail">Email Address</label>
-        <input type="email" id="email" name="email">
+    <div class="questcontainer earthling">
+
+            <p class="questname">Quest: The Strongest Earthling</p> 
+
+        <img src="/images/questimages/examplequest2.png" class="questimage">
+
+
+          <p class="rankname">Rank Required: Earthling</p> 
+
+        <a href="questexamplepage.html" target="_blank"><p class="viewquest">View Quest</p></a>
     </div>
 
-    <div class="passlabel">
-        <label for="password" class="createpass">Password</label>
-        <input type="password" id="createpassword" name="password">
-        <p class="registerdescription">Password must be at least 6 characters long, must contain letters in mixed case and must contain numbers.</p>
-    </div>
 
-    <div class="sublabel">
-        <label for="password" class="confirmpass">Confirm Passowrd</label>
-        <input type="password" id="confirmpassword" name="password">
-    </div>
+    <div class="questcontainer supremekai">
 
+          <p class="questname">Quest: The Cell Games</p> 
+
+
+      <img src="/images/questimages/examplequest3.jpg" class="questimage">
+
+
+        <p class="rankname">Rank Required: Supreme Kai</p> 
+
+      <a href="questexamplepage.html" target="_blank"><p class="viewquest">View Quest</p></a>
+  </div>
     
-    <input type="submit" class="submit" value="Confirm Registration"> 
 
-</form>
+  </div>
 
-    </div>
 </div>
 
 

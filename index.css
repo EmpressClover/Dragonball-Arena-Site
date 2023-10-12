@@ -385,9 +385,6 @@
  display: flex; 
  flex-direction: column;
  justify-content: center;
- min-height: 100%;
- height: auto !important;
- height: 100%;
 }
 
 
@@ -648,4 +645,161 @@ footer {
   text-align: center;
   font-family: 'roboto','sans-serif';
   font-size: 15px;
+ }
+
+ .questpage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 20px;
+ }
+
+ .questrow, .rankrow {
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ .questimage {
+  display:block;
+  border: 1px solid #0c0c15;
+  max-width: 496px;
+  max-height: 208px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+
+ }
+
+ .questcontainer {
+  position: relative;
+  max-width: 496px;
+  width: 100%;
+  height: 282px;
+  background-color: #e87b2a;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+ .questlabel, .questname {
+  font-family: 'anton','sans-serif';
+  font-size: 23px;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-left: 10px;
+ }
+
+ .questname {
+  overflow:hidden; 
+  white-space:nowrap; 
+  text-overflow: ellipsis;
+ }
+
+ .ranklabel,.rankname {
+  font-family: 'roboto','sans-serif';
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+ }
+
+ .viewquest {
+  position: relative;
+  max-width: 515px;
+  width: 100%;
+  height: 30px;
+  background-color: #0c0c15;
+  border: 1px solid #0c0c15;
+  margin-top: -9px;
+  color:#e87b2a;
+  font-family: 'Anton','sans-serif';
+  font-size: 21px;
+  text-align: center;
+  margin-bottom: 0px;
+ }
+
+ .rankrequired, .queststatus {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+ }
+
+ .insidequest {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  top: 15px;
+  position: relative;
+ }
+ 
+
+ .questinformationcontainer {
+  width: 406px;
+  height: auto;
+  position: relative;
+  border: 1px solid #e87b2a;
+  margin-top: 10px;
+  float: left;
+  flex-direction: column;
+  padding-bottom: 6px;
+ }
+
+ .questinformation, .questreward {
+  width: 405px;
+  background-color: #e87b2a;
+  font-family: 'anton','sans-serif';
+  font-size: 20px;
+  margin-top: 0;
+  padding-left: 10px;
+ }
+
+ .insidequestnamelabel, .characterunlocked {
+  position: relative;
+  padding-left: 9px;
+  margin-top: -14px;
+  font-family: 'roboto','serif-sans';
+ }
+
+ .unlockedreward {
+  position: relative;
+  padding-left: 9px;
+  margin-top: 7px;
+  font-family: 'roboto','serif-sans';
+ }
+
+ .questdescription {
+  margin: 0 auto;
+  padding-left: 9px;
+  padding-bottom: 1px;
+  font-family: 'roboto','serif-sans';
+ }
+
+ .questcompletioncheck {
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 9px;
+  margin-top: 10px;
+  width: auto;
+  float: left;
+  background-color: #0c0c15;
+  color: #e87b2a;
+  font-family: 'roboto','serif-sans';
+  font-weight: 900;
+ }
+
+ .facepicture {
+  margin-left: 9px;
+  border: 1px solid #0c0c15;
+  position: relative;
  }
