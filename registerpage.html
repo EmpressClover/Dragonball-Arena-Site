@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" href="/images/sitelogo.png">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dragonball Arena Home</title>
+    <title>Dragonball Arena Register</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -64,23 +66,25 @@
   <form action="   ">
 
     <div class="loginlabel">
-        <label for="createusername" class="createuser" min="3" max="16">Username</label>
-        <input type="text" id="createusername" name="createusername">
+        <label for="username" class="createuser" min="3" max="16">Username</label>
+        <input type="text" id="createusername" name="username">
+        <p class="registerdescription">Username must be between 3 characters and 16 characters long and use only letter or number characters.</p>
     </div>
 
-    <div class="passlabel">
+    <div class="sublabel">
         <label for="email" class="createemail">Email Address</label>
         <input type="email" id="email" name="email">
     </div>
 
     <div class="passlabel">
-        <label for="Password" class="createpass">Password</label>
-        <input type="password" id="createpassword" name="createpassword">
+        <label for="password" class="createpass">Password</label>
+        <input type="password" id="createpassword" name="password">
+        <p class="registerdescription">Password must be at least 6 characters long, must contain letters in mixed case and must contain numbers.</p>
     </div>
 
-    <div class="passlabel">
-        <label for="Password" class="confirmpass">Confirm Passowrd</label>
-        <input type="password" id="confirmpassword" name="confirmpassword">
+    <div class="sublabel">
+        <label for="password" class="confirmpass">Confirm Passowrd</label>
+        <input type="password" id="confirmpassword" name="password">
     </div>
 
     
