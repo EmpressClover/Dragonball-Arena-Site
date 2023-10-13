@@ -16,6 +16,7 @@
 
   a {
     text-decoration: none;
+    color: inherit;
   }
   
   .nav {
@@ -805,3 +806,32 @@ footer {
   border: 1px solid #0c0c15;
   position: relative;
  }
+
+ .manualcontainer {
+  position: relative;
+  max-width: 718px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e87b2a;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+
+ .manualnamelabel {
+  position: relative;
+  max-width: 717px;
+  width: 100%;
+  height: auto;
+  background-color: #e87b2a; 
+  text-align: center;
+  margin-top: auto;
+  font-family: 'anton','sans-serif';
+  font-size: 18px;
+}
+
+.manualdescription {
+  position: relative;
+  font-family: 'roboto','sans-serif';
+  height: 100%;
+  margin-left: 10px;
+}
