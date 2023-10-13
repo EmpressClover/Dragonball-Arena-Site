@@ -744,7 +744,8 @@ footer {
  
 
  .questinformationcontainer {
-  width: 406px;
+  max-width: 406px;
+  width: 100%;
   height: auto;
   position: relative;
   border: 1px solid #e87b2a;
@@ -755,7 +756,8 @@ footer {
  }
 
  .questinformation, .questreward {
-  width: 405px;
+  max-width: 405px;
+  width: 100%;
   background-color: #e87b2a;
   font-family: 'anton','sans-serif';
   font-size: 20px;
