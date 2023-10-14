@@ -381,6 +381,33 @@
 }
 
 
+@media (max-width: 400px)
+{
+  .header {
+    font-size: 50px;
+    margin-left: 8px;
+    margin-top: 237px;
+  }
+
+  .header2 {
+    font-size: 40px;
+    margin-left: 11px;
+    margin-top: 291px;
+  }
+
+  .headersubtext {
+    margin-left: 10px;
+    margin-top: 385px;
+    font-size: 19px;
+  }
+
+  .headersubtext2 {
+    margin-left: 10px;
+    margin-top: 415px;
+  }
+}
+
+
 
 .realbody {
  display: flex; 
@@ -566,7 +593,7 @@ footer {
   border: 1px solid #e87b2a;
   max-width: 388px;
   width: 100%;
-  height: 112px;
+  height: auto;
   margin: auto;
   margin-top: 15px;
 }
@@ -646,6 +673,7 @@ footer {
   text-align: center;
   font-family: 'roboto','sans-serif';
   font-size: 15px;
+  margin-top: 24px;
  }
 
  .questpage {
@@ -834,4 +862,76 @@ footer {
   font-family: 'roboto','sans-serif';
   height: 100%;
   margin-left: 10px;
+}
+
+.characterandskillspage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.charactercontainer {
+  max-width: 711px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid #e87b2a;
+  margin-top: 15px;
+  padding-bottom: 5px;
+}
+
+.charactername {
+  max-width: 710px;
+  width: 100%;
+  height: auto;
+  background-color: #e87b2a;
+  font-family: 'anton','sans-serif';
+  font-size: 20px;
+  padding-left: 10px;
+  margin-top: 0;
+}
+
+.characteroverviewpictureanddescription {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: -10px;
+}
+
+.characteroverviewpicture {
+  border: 1px solid #0c0c15;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.characterdescription {
+  max-width: 616px;
+  width: 100%;
+  padding-left: 9px;
+  height: 70x;
+  float: left;
+  margin: 0;
+  font-family: 'roboto','sans-serif';
+  font-size: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.viewcharacter {
+  text-align: center;
+  width: 100%;
+  background-color: #e87b2a;
+  margin-bottom: -5px;
+  font-family: 'roboto','sans-serif';
+padding-top: 5px;
+padding-bottom: 5px;
+  text-transform: capitalize;
+  margin-top: 10px;
 }
