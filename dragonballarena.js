@@ -28,6 +28,8 @@ var images = [
     });
 
 
+
+
     $(document).ready(function(){
         $(".rankrequired").change(function(){
             $( "select option:selected").each(function(){
