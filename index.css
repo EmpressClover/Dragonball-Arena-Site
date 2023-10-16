@@ -438,6 +438,7 @@
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
 }
 
 .newsbanner {
