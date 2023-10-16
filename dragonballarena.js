@@ -90,4 +90,4 @@ var images = [
         }).change();
     });
 
-
+    $(".news").load("./news/newsgrab.html .news2");
