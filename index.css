@@ -438,7 +438,6 @@
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
-  overflow: hidden;
 }
 
 .newsbanner {
@@ -842,6 +841,7 @@ footer {
   margin-left: 9px;
   border: 1px solid #0c0c15;
   position: relative;
+  object-fit: cover;
  }
 
  .manualcontainer {
@@ -916,6 +916,7 @@ footer {
   border: 1px solid #0c0c15;
   margin-left: 10px;
   margin-top: 0px;
+  object-fit: cover;
 }
 
 .characterdescription {
@@ -943,4 +944,32 @@ padding-top: 5px;
 padding-bottom: 5px;
   text-transform: capitalize;
   margin-top: 10px;
+}
+
+.questcategories {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 50px;
+}
+
+.category {
+  width: 250px;
+  height: 600px;
+  object-fit: cover;
+  border: 1px solid #0c0c15;
+}
+
+.categorytitle {
+  width: 250px;
+  background-color: #0c0c15;
+  font-family: 'anton','sans-serif';
+  font-size: 20px;
+  color:#e87b2a;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
 }
