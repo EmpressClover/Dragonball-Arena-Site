@@ -7,11 +7,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dragon Ball Arena Quest Categories</title>
+    <title>Dragon Ball Arena Quests</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -55,62 +55,68 @@
 
 
 
-  <!-- Real Body Begins Here -->
-  <!-- Real Body Begins Here -->
-  <!-- Real Body Begins Here -->
+<!-- Real Body Begins Here -->
+<!-- Real Body Begins Here -->
+<!-- Real Body Begins Here -->
 
 <div class="realbody">
 
-  <div class="pagetitle"> Quest Categories </div>
+  <div class="pagetitle"> Quests </div>
 
-  <div class="questcategories">
+  <select class="rankrequired">
+    <option value="reset">Rank Required</option>
+    <option value="earthling">Earthling</option>
+    <option value="saibaman">Saibaman</option>
+    <option value="namekian">Namekian</option>
+    <option value="kingkai">King Kai</option>
+    <option value="android">Android</option>
+    <option value="sayian">Sayian</option>
+    <option value="supersaiyan">Super Sayian</option>
+    <option value="supremekai">Supreme Kai</option>
+    <option value="majin">Majin</option>
+    <option value="godofdestruction">God of Destruction</option>
+  </select>
 
-    <div class="questcategory">
-      <a href="dragonballquests.html" target="_blank"><img src="images/questimages/dragonball.jpg" class="category">
-      <p class="categorytitle">Dragon Ball</p></a>
+
+
+  <div class="questpage">
+
+
+    <div class="questcontainer supersaiyan" data-filter="1">
+            <p class="questname">Quest: The Super Saiyan!</p> 
+        <img src="images/questimages/examplequest.jpg" class="questimage">
+          <p class="rankname">Rank Required: Super Sayian</p> 
+          <p class="requiredname">Quest Required: None</p> 
+        <a href="questexamplepage.html" target="_blank"><p class="viewquest">View Quest</p></a>
     </div>
 
-    <div class="questcategory">
-      <a href="dragonballzquests.html" target="_blank"><img src="images/questimages/dragonballz.jpg" class="category">
-      <p class="categorytitle">Dragon Ball Z</p></a>
+
+    <div class="questcontainer earthling" data-filter="2">
+            <p class="questname">Quest: The Strongest Earthling</p> 
+        <img src="images/questimages/examplequest2.png" class="questimage">
+          <p class="rankname">Rank Required: Earthling</p> 
+          <p class="requiredname">Quest Required: "The Super Saiyan!"</p> 
+        <a href="questexamplepage.html" target="_blank"><p class="viewquest">View Quest</p></a>
     </div>
 
 
-    <div class="questcategory">
-      <a href="dragonballgtquests.html" target="_blank"><img src="images/questimages/dragonballgt.jpg" class="category">
-      <p class="categorytitle">Dragon Ball GT</p></a>
-    </div>
-
-    <div class="questcategory">
-      <a href="dragonballsuperquests.html" target="_blank"><img src="images/questimages/dragonballsuper.jpg" class="category">
-      <p class="categorytitle">Dragon Ball Super</p></a>
-    </div>
-
-    <div class="questcategory">
-      <a href="dragonballheroesquests.html" target="_blank"><img src="images/questimages/dragonballheroes.jpg" class="category">
-      <p class="categorytitle">Super Dragon Ball Heroes</p></a>
-    </div>
-
-    <div class="questcategory">
-      <a href="dragonballdaimaquests.html" target="_blank"><img src="images/questimages/dragonballdaima.jpg" class="category">
-      <p class="categorytitle">dragon ball daima</p></a>
-    </div>
-
-    <div class="questcategory">
-      <a href="dragonballmoviesquests.html" target="_blank"><img src="images/questimages/dragonballmovies.jpg" class="category">
-      <p class="categorytitle">dragon ball movies</p></a>
-    </div>
+    <div class="questcontainer supremekai" data-filter="3">
+          <p class="questname">Quest: The Cell Games</p> 
+      <img src="images/questimages/examplequest3.jpg" class="questimage">
+        <p class="rankname">Rank Required: Supreme Kai</p> 
+        <p class="requiredname">Quest Required: None</p> 
+      <a href="questexamplepage.html" target="_blank"><p class="viewquest">View Quest</p></a>
+  </div>
+    
 
   </div>
 
-  </div>
-
-  <footer>
-    <p>© 2023 Dragon Ball Arena. "Dragon Ball" is a trademark of Bird Studio/Shueisha, Fuji TV, and Toei Animation.</p>
-  </footer>
 </div>
 
 
+<footer>
+  <p>© 2023 Dragon Ball Arena. "Dragon Ball" is a trademark of Bird Studio/Shueisha, Fuji TV, and Toei Animation.</p>
+</footer>
 
 
 </body>
