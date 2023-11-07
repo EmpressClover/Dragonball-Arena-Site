@@ -91,3 +91,9 @@ var images = [
     });
 
     $(".news").load("./news/newsgrab.html .news2");
+
+    $(document).ready(function() {
+        $(".topusername").css({
+          'width': ($(".dropdown-content").width() + 'px')
+        });
+      });

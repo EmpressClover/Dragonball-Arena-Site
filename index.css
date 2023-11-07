@@ -91,7 +91,7 @@
 
 
  .credentials {
-  display: inline;
+  display: inline-block;
   float: right;
   font-size: 18px;
   padding-right: 60px;
@@ -972,4 +972,458 @@ padding-bottom: 5px;
   text-transform: uppercase;
   text-align: center;
   margin-top: 0;
+}
+
+.characternameandpictureinside {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 550px;
+  width: 100%;
+}
+
+.characterdragonball {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.characternameinside {
+  font-family: 'anton','sans-serif';
+  font-size: 18px;
+  margin-top: 0;
+  background-color: #e87b2a;
+  padding-left: 10px;
+  width: 430px;
+}
+
+.insidefacepicture {
+  border: 1px solid #0c0c15;
+  margin-left: 12px;
+  margin-top: -10px;
+  margin-bottom: 16px;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.characterdescriptioninside {
+  font-family: 'roboto','sans-serif';
+  max-width: 423px;
+  width: 100%;
+  min-height: 75px;
+  height: 100%;
+  margin-top: -10px;
+  font-size: 14px;
+  padding-left: 5px;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #d6d6d6;
+  border-top: 1px dotted #0c0c15;
+  border-bottom: 1px dotted #0c0c15;
+}
+
+.insidequestunlock {
+  font-family: 'anton','sans-serif';
+  font-size: 14px;
+  margin-top: -7px;
+  margin-left: 12px;
+}
+
+.insidequestname {
+  font-family: 'anton','sans-serif';
+  font-size: 14px;
+  margin-top: -7px;
+  margin-left: 3px;
+  color: #0f0f0f;
+}
+
+.characterskillsinside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1538px;
+  width: 100%;
+  margin: auto;
+  gap: 50px;
+  position: relative;
+  top: 20px;
+}
+
+.skillinside {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 480px;
+  width: 100%;
+
+}
+
+.skillnameinside {
+    font-family: 'anton','sans-serif';
+  font-size: 18px;
+  margin-top: 0;
+  background-color: #e87b2a;
+  padding-left: 10px;
+  width: 380px;
+  height: auto;
+}
+
+.insideskillpicture {
+  width: 75px;
+  height: 75px;
+  border: 1px solid #0c0c15;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.skilldescriptioninside {
+  font-family: 'roboto','sans-serif';
+  max-width: 390px;
+  width: 100%;
+  min-height: 75px;
+  height: 100%;
+  margin-top: -10px;
+  font-size: 14px;
+  padding-left: 5px;
+  margin-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #d6d6d6;
+  border-top: 1px dotted #0c0c15;
+  border-bottom: 1px dotted #0c0c15;
+}
+
+.cooldown {
+  font-family: 'roboto','sans-serif';
+  font-size: 13px;
+    margin-left: 10px;
+    margin-top: -7px;
+    background-color: #0c0c15;
+    color: #d6d6d6;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.energyrequired {
+    font-family: 'roboto','sans-serif';
+  font-size: 13px;
+    margin-left: 10px;
+    margin-top: -7px;
+    background-color: #e87b2a;
+    color: #0c0c15;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 0;
+    margin-left: auto; 
+}
+
+.insidecooldownandenergy {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 480px;
+  width: 100%;
+}
+
+.classesinside{
+  font-family: 'roboto','sans-serif';
+  font-size: 13px;
+    margin-left: 10px;
+    margin-top: -7px;
+    color: #0c0c15;
+    border: 1px solid #e87b2a;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.energyinside {
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-top: -4px;
+}
+
+@media (max-width: 500px) {
+  .characterdragonball {
+    display: none
+  }
+}
+
+.ranktable {
+  margin-top: 10px;
+}
+
+.tablehead {
+  background-color: #e87b2a;
+  font-family: 'roboto','sans-serif';
+  font-size: 18px;
+}
+
+
+.ladderth {
+  border: 1px solid #0c0c15;
+}
+
+.laddertd {
+  text-align: center;
+  font-family: 'roboto','sans-serif';
+  font-size: 20px;
+  border: 1px solid #0c0c15;
+}
+
+.ladderextra {
+  font-family: 'roboto','sans-serif';
+  text-align: center;
+}
+
+.useravatar {
+  height: 58px;
+  border: 1px solid #0c0c15;
+  position: relative;
+  top: 1px;
+}
+
+.usertop {
+  font-family: 'anton', 'sans-serif';
+  color: #0c0c15;
+  padding: 2px 25px;
+  text-align: center;
+  display: inline;
+  position: relative;
+  font-size: 15px;
+  font-family: 'anton','serif-sans';
+  padding: 0;
+  margin-top: 0px;
+}
+
+
+.topusername {
+  background-color: #04aa6d00;
+  color: #0c0c15;
+  font-size: 16px;
+  border: none;
+  font-family: 'anton','sans-serif';
+  font-size: 25px;
+  height: 61px;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+  top: -17px;
+  position: relative;
+}
+
+.topusername:after {
+  content: "";
+  position: relative;
+  right: -3px;
+  toP: 25px;
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgb(0, 0, 0);
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border: 1px solid #0c0c15;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-family: 'roboto','sans-serif';
+  font-size: 16px;
+}
+
+
+.dropdown-content a:hover {background-color: #e87b2a;}
+
+
+.dropdown:focus-within .dropdown-content {display: block;}
+
+.dropdown:focus-within .topusername, .dropdown:hover .topusername {background-color: #e87b2a;}
+
+
+.topprofile {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.profilecontainer,.clancontainer {
+  position: relative;
+  max-width: 410px;
+  width: 100%;
+  height: 158px;
+  border: 1px solid #e87b2a;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+
+
+ .laddercontainer {
+  position: relative;
+  max-width: 410px;
+  width: 100%;
+  height: 158px;
+  border: 1px solid #e87b2a;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+
+.profilelabel,.ladderlabel,.clanlabel {
+  position: relative;
+  max-width: 717px;
+  width: 100%;
+  height: auto;
+  background-color: #e87b2a; 
+  text-align: center;
+  margin-top: auto;
+  font-family: 'anton','sans-serif';
+  font-size: 25px;
+}
+
+.profiletext, .clantext {
+  position: relative;
+  font-family: 'roboto','sans-serif';
+  margin-left: 10px;
+  left: 97px;
+  toP: 59px;
+  margin-top: -151px;
+  margin-bottom: 153px;
+}
+
+.profileavatar,.clanavatar {
+  border: 1px solid #0c0c15;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.ladderimage {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.laddertext {
+  position: relative;
+  font-family: 'roboto','sans-serif';
+  margin-left: 10px;
+  left: 97px;
+  toP: 59px;
+  margin-top: -154px;
+  margin-bottom: 153px;
+}
+
+
+.ladderprogress {
+
+    position: relative;
+  width: 100px;
+  height: 15px;
+  border: 1px solid #0c0c15;
+  margin-left: 10px;
+  left: 97px;
+  toP: -89px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ladderlevel {
+  position: relative;
+  font-family: 'roboto','sans-serif';
+  font-size: 14px;
+  left: 40px;
+  top: -15.5px;
+}
+
+.ladderprogress {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.gamescontainer,.gametable {
+  justify-content: center;
+  margin: auto;
+}
+
+.gametable {
+  margin-top: -26px;
+    border-collapse: collapse;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+.gamescontainer {
+  max-width: 1654px;
+  width: 100%;
+}
+
+.dateth {
+  width: 224px;
+  background-color: #000000;
+  border: 1px solid #0c0c15;
+  color: #e87b2a;
+}
+
+.timeth {
+  width: 224px;
+  background-color: #000000;
+  border: 1px solid #0c0c15;
+  color: #e87b2a;
+}
+
+.battleth {
+  width: 1001px;
+  background-color: #ebebeb;
+  border: 1px solid #0c0c15;
+}
+
+.winnerth {
+  width: 460px;
+  background-color: #000000;
+  border: 1px solid #0c0c15;
+  color: #e87b2a;
+}
+
+.gamestext {
+  width: auto;
+  text-align: center;
+  font-family: 'anton','sans-serif';
+  font-size: 24px;
+  background-color: #e87b2a;
+}
+
+
+.gametable tr {
+  text-align: center;
+  font-family: 'roboto','sans-serif';
+  font-size: 20px;
+  border: 1px solid #0c0c15;
 }
