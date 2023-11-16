@@ -97,3 +97,22 @@ var images = [
           'width': ($(".dropdown-content").width() + 'px')
         });
       });
+
+
+      function copy(txt) {
+        var input = document.createElement('input');
+        input.value = txt;
+        document.body.append(input);
+        input.select();
+        document.execCommand('copy');
+        input.remove();
+      }
+
+
+
+      $(document).ready(
+        function() {
+            $(".defaultavy").click(function() {
+                $("#copied").hide().slideDown().delay(500).fadeOut();
+            });
+        });

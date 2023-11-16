@@ -7,11 +7,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dragon Ball Arena Register</title>
+    <title>Dragon Ball Arena Change Backgrounds</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -36,8 +36,21 @@
       </div>
 
       <div class="credentials">
-        <a href="loginpage.html"><p class="signin">Login</p></a>
-        <a href="#" target="_blank"><p class="register">Register</p></a>
+        
+        <div class="dropdown">
+          <button class="topusername">Username</button>
+          <div class="dropdown-content">
+            <a href="exampleprofile.html">View Profile</a>
+            <a href="changesettings.html">Change Settings</a>
+            <a href="changeavatar.html">Change Avatar</a>
+            <a href="clanpanel.html">Clan Panel</a>
+            <a href="changebackgrounds.html">Change Backgrounds</a>
+            <a href="resetaccount.html">Reset Account</a>
+            <a href="#">Logout</a>
+          </div>
+        </div>
+
+        <img src="images/exampleavy.png" class="useravatar">
       </div>
 
     </div>
@@ -55,56 +68,53 @@
 
 
 
-<!-- Real Body Begins Here -->
-<!-- Real Body Begins Here -->
-<!-- Real Body Begins Here -->
+  <!-- Real Body Begins Here -->
+  <!-- Real Body Begins Here -->
+  <!-- Real Body Begins Here -->
 
 <div class="realbody">
 
-  <div class="pagetitle">Register</div>
+  <div class="pagetitle"> Change Backgrounds </div>
 
-  <form action="   ">
+  
 
-    <fieldset>
-    <div class="loginlabel">
-        <label for="username" class="createuser" min="3" max="16">Username</label>
-        <input type="text" id="createusername" name="username">
-        <p class="registerdescription">Username must be between 3 characters and 16 characters long and use only letter or number characters.</p>
+    <div class="changebackground">
+
+        <form role="form" action="   " method="POST">
+
+            <input type="hidden" name="_token" value="  ">
+
+            <p class="changepassword">Selection Background</p>
+            <br>
+            <p class="avatarcontainertext">Direct Image Links Only</p>
+            <input type="text" name="selectionbackground" value=" ">
+            <br><br>
+    
+            <button type="submit" value="Change" name="change" class="changebackgroundbutton">Change</button>
+
+            <p class="changepassword">In-Game Background</p>
+            <br>
+            <p class="avatarcontainertext">Direct Image Links Only</p>
+            <input type="text" name="ingamebackground" value=" ">
+            <br>    
+    
+    
+            <button type="submit" value="Change" name="change" class="changeingamebutton">Change</button>
+    
+        </form>
+
+
     </div>
 
-    <div class="sublabel">
-        <label for="email" class="createemail">Email Address</label>
-        <input type="email" id="email" name="email">
-    </div>
-
-    <div class="passlabel">
-        <label for="password" class="createpass">Password</label>
-        <input type="password" id="createpassword" name="password">
-        <p class="registerdescription">Password must be at least 6 characters long, must contain letters in mixed case and must contain numbers.</p>
-      </div>
-
-    <div class="sublabel">
-        <label for="password" class="confirmpass">Confirm Passowrd</label>
-        <input type="password" id="confirmpassword" name="password">
-    </div>
-    </fieldset>
-
-<fieldset>
-  <input type="submit" name="submit" value="Confirm Registration" class="submit">
-  <input type="hidden" name="creation_time" value="  ">
-  <input type="hidden" name="form_token" value="  ">
-</fieldset>
 
 
-</form>
 
-    </div>
+  <footer>
+    <p>© 2023 Dragon Ball Arena. "Dragon Ball" is a trademark of Bird Studio/Shueisha, Fuji TV, and Toei Animation.</p>
+  </footer>
 </div>
 
 
-<footer>
-  <p>© 2023 Dragon Ball Arena. "Dragon Ball" is a trademark of Bird Studio/Shueisha, Fuji TV, and Toei Animation.</p>
-</footer>
 
 
 </body>

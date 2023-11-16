@@ -598,6 +598,30 @@ footer {
   margin-top: 15px;
 }
 
+.changepass, .changeemail {
+  position: relative;
+  border: 1px solid #e87b2a;
+  max-width: 388px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+  padding-bottom: 25px;
+}
+
+.changepassword, .changemail {
+  max-width: 424px;
+  width: 100%;
+  background-color: #e87b2a;
+  text-align: center;
+  font-family: 'anton', 'sans-serif';
+  position: relative;
+  font-size: 20px;
+  display: block;
+  margin-top: auto;
+  margin-bottom: -10px;
+}
+
 .sublabel {
   position: relative;
   border: 1px solid #e87b2a;
@@ -619,7 +643,7 @@ footer {
   display: block;
 }
 
-#username, #password, #createusername, #email, #createpassword, #confirmpassword {
+#username, #password, #createusername, #email, #createpassword, #confirmpassword, #currentpassword, #changepassword, #confirmpassword {
   position: relative;
   display: block;
   margin : 0 auto;
@@ -674,6 +698,14 @@ footer {
   font-family: 'roboto','sans-serif';
   font-size: 15px;
   margin-top: 24px;
+ }
+
+ .settingfields {
+  text-align: center;
+  font-family: 'roboto','sans-serif';
+  font-size: 15px;
+  margin-top: 20px;
+  display: block;
  }
 
  .questpage {
@@ -1427,3 +1459,190 @@ padding-bottom: 5px;
   font-size: 20px;
   border: 1px solid #0c0c15;
 }
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.changeavatarimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 15px;
+  border: 1px solid #0c0c15;
+}
+
+
+.defaultavy {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 15px;
+  border: 1px solid #0c0c15;
+}
+
+
+.avatarcontainer1 {
+  position: relative;
+  max-width: 173px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e87b2a;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+
+
+ .avatarcontainer2 {
+  position: relative;
+  max-width: 272px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e87b2a;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+
+ .avatarcontainer3 {
+  position: relative;
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e87b2a;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+
+
+ .avatarcontainertext {
+  position: relative;
+  max-width: 717px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: auto;
+  font-family: 'roboto','sans-serif';
+  font-size: 14px;
+}
+
+
+.avatarlabel {
+  position: relative;
+  max-width: 717px;
+  width: 100%;
+  height: auto;
+  background-color: #e87b2a; 
+  text-align: center;
+  margin-top: auto;
+  font-family: 'anton','sans-serif';
+  font-size: 18px;
+}
+
+.changeavatarline {
+  max-width: 452px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+
+
+ .avatarform {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+ }
+
+
+ .changeavatarbutton {
+  background-color: #e87b2a;
+  border: none;
+  color: #0c0c15;
+  padding: 2px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'anton','serif-sans';
+ }
+
+ #copied {
+  position: absolute;
+  font-family: 'roboto', 'sans-serif';
+  font-size: 18px;
+  background-color: #e87b2a;
+  color: #0c0c15;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 38px;
+  margin-bottom: 47px;
+  margin-left: 158px;
+  margin-right: 20px;
+  display: none;
+}
+
+
+.changebackground {
+  position: relative;
+  border: 1px solid #e87b2a;
+  max-width: 388px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+
+}
+
+.changebackground input {
+  position: relative;
+  display: block;
+  margin : 0 auto;
+  text-align: center;
+}
+
+
+.changebackgroundbutton {
+  background-color: #e87b2a;
+  border: none;
+  color: #0c0c15;
+  padding: 2px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -9px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-family: 'anton','serif-sans';
+ }
+
+ .changeingamebutton {
+  background-color: #e87b2a;
+  border: none;
+  color: #0c0c15;
+  padding: 2px 25px;
+  text-decoration: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'anton','serif-sans';
+ }
