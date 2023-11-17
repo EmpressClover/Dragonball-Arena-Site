@@ -1646,3 +1646,36 @@ fieldset {
   font-size: 15px;
   font-family: 'anton','serif-sans';
  }
+
+ .currentpass {
+  font-family: 'anton','sans-serif';
+  font-size: 18px;
+  text-align: center;
+  width: auto;
+  background-color: #e87b2a;
+  margin-top: auto;
+ }
+
+
+ .resetbutton {
+  background-color: #e87b2a;
+  border: none;
+  color: #0c0c15;
+  padding: 2px 25px;
+  text-decoration: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'anton','serif-sans';
+ }
+
+ .reset {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'roboto','serif-sans';
+  margin-bottom: -19px;
+ }
