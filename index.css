@@ -1328,7 +1328,7 @@ padding-bottom: 5px;
   margin-top: 20px;
  }
 
-.profilelabel,.ladderlabel,.clanlabel {
+.profilelabel,.ladderlabel,.clanlabel,.claninvlabel {
   position: relative;
   max-width: 717px;
   width: 100%;
@@ -1563,7 +1563,7 @@ fieldset {
  }
 
 
- .changeavatarbutton {
+ .changeavatarbutton, .createclanbutton {
   background-color: #e87b2a;
   border: none;
   color: #0c0c15;
@@ -1679,3 +1679,261 @@ fieldset {
   font-family: 'roboto','serif-sans';
   margin-bottom: -19px;
  }
+
+ .clanpanellist {
+  max-width: 496px;
+  width: 100%;
+  background-color: #e87b2a;
+  height: auto;
+  margin-top: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+ .clanpanellabel {
+  font-family: 'anton','sans-serif';
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  text-align: center;
+ }
+
+ .clanpaneldescription {
+  font-family: 'roboto','sans-serif';
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -20px;
+  text-align: center;
+  margin-bottom: 10px;
+ }
+
+ .clanpanellist2 {
+  max-width: 496px;
+  width: 100%;
+  background-color: #e87b2a;
+  height: 45px;
+  margin-top: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+
+
+ .inclanlabel {
+  position: relative;
+  max-width: 478px;
+  width: 100%;
+  height: auto;
+  background-color: #e87b2a;
+  text-align: center;
+  margin-top: auto;
+  font-family: 'anton','sans-serif';
+  font-size: 25px;
+ }
+
+ .inclancontainer {
+  position: relative;
+  max-width: 410px;
+  width: 100%;
+  height: 146px;
+  border: 1px solid #e87b2a;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+
+ .inclancontainer2 {
+  position: relative;
+  max-width: 410px;
+  width: 100%;
+  height: 189px;
+  border: 1px solid #e87b2a;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+
+ .inclancontainer input, .inclancontainer2 input {
+  position: relative;
+  display: block;
+  margin : 0 auto;
+  text-align: center;
+ }
+
+ .inclandesc {
+  font-family: 'roboto','sans-serif';
+  font-size: 15px;
+  margin-top: -17px;
+  text-align: center;
+ }
+
+
+ .claninvitationcontainer {
+  position: relative;
+  max-width: 637px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #00000000;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+
+
+ .claninvtable {
+  margin-top: -26px;
+  text-indent: initial;
+  width: 100%;
+  border-spacing: 5px 7px;
+}
+
+
+.clanenameth {
+  width: 1396px;
+  background-color: #e87b2a;
+  color: #0c0c15;
+}
+
+
+.acceptth,.declineth {
+  width: 460px;
+  background-color: #e87b2a;
+  color: #0c0c15;
+}
+
+.clantd {
+  font-family: 'roboto','sans-serif';
+  background-color: #00000000;
+  border: 1px solid #0c0c15;
+  color: #0c0c15;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+}
+
+
+
+
+.acceptdeclinebutton {
+  border: none;
+  cursor: pointer;
+  font-family: 'roboto','sans-serif';
+  background-color: #e87b2a;
+  color: #0c0c15;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  max-width: 86px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.recruitcontainer {
+  margin-top: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recruitcontainer span{
+  font-family: 'roboto';
+}
+
+.recruitcontainer input {
+
+}
+
+.recruitbutton {
+  font-family: 'roboto','sans-serif';
+  font-weight: 800;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  background-color: #e87b2a;
+  color: #0c0c15;
+  padding: 2px 16px 2px 16px;
+}
+
+.memebrlistusernameth {
+  width: 559px;
+  background-color: #e87b2a;
+  color: #0c0c15;
+  margin-left: 110px;
+}
+
+.clanrankth,.ranknameth {
+  width: 460px;
+  background-color: #e87b2a;
+  color: #0c0c15;
+}
+
+.memberlistcontainer {
+  position: relative;
+  max-width: 733px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #00000000;
+  margin: 0 auto;
+  margin-top: 20px;
+ }
+
+ .memberlistlabel {
+  position: relative;
+  max-width: 733px;
+  width: 100%;
+  height: auto;
+  background-color: #e87b2a; 
+  text-align: center;
+  margin-top: auto;
+  font-family: 'anton','sans-serif';
+  font-size: 25px;
+}
+
+#clanrankselect {
+  font-family: 'roboto','sans-serif';
+  font-size: 13px;
+  width: 100%;
+  border:none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#clanrankselect :focus{
+  outline:none;
+}
+
+.ranknameinput {
+  font-family: 'roboto','sans-serif';
+  font-size: 13px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.memberlistoptionth {
+  width: 460px;
+  background-color: #e87b2a;
+  color: #0c0c15;
+}
+
+.memberlistbutton {
+  border: none;
+  cursor: pointer;
+  font-family: 'roboto','sans-serif';
+  background-color: #e87b2a;
+  color: #0c0c15;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  max-width: 81px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 800;
+}
