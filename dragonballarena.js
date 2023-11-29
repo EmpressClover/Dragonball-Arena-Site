@@ -116,3 +116,8 @@ var images = [
                 $("#copied").hide().slideDown().delay(500).fadeOut();
             });
         });
+
+
+        $(".tournamentnews").load("./news/tournamentgrab.html .tournamentnews2");
+
+        $(".playerspotlightnews").load("./news/playerspotlightgrab.html .tournamentnews2");
