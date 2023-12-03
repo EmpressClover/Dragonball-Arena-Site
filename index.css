@@ -2285,7 +2285,8 @@ fieldset {
 .signin, .register, .changeavatarbutton, .avatarcontainer1, .avatarcontainer2, .avatarcontainer3, .recruitbutton,
 .acceptdeclinebutton, .memberlistbutton, .createclanbutton, .inclancontainer, .inclancontainer2,
 .changeingamebutton, .changebackgroundbutton, .changebackground, .resetbutton, .forgotpass,
-.sublabel, .loginlabel,.passlabel {
+.sublabel, .loginlabel,.passlabel, .characterdescriptioninside, .skilldescriptioninside, .skillnameinside,
+.characternameinside, .classesinside, .cooldown, .insidecooldownandenergy, .insidequestname {
   transition: all .3s ease-in-out;
 }
 
@@ -2303,7 +2304,7 @@ fieldset {
 }
 
 .hide1, .hide2 {
-  display: none;
+  display: block;
 }
 
 .questcontainer:hover {
@@ -2391,6 +2392,11 @@ fieldset {
 }
 
 .inclancontainer:hover, .inclancontainer2:hover, .changebackground:hover, .sublabel:hover, .loginlabel:hover,
-.passlabel:hover {
+.passlabel:hover, .characterdescriptioninside:hover, .skilldescriptioninside:hover, .skillnameinside:hover,
+.characternameinside:hover, .classesinside:hover, .cooldown:hover {
   box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+}
+
+.insidequestname:hover {
+  color: #e87b2a
 }
