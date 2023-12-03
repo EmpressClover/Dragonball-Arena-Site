@@ -2279,10 +2279,118 @@ fieldset {
   box-shadow: 5px 5px 0px #e87b2a;  
 }
 
-.tournamentdetails, .ranktop5, .playerspotlightcontainer, .newsidv2 img {
+.tournamentdetails, .ranktop5, .playerspotlightcontainer, .newsidv2 img, .questcategory img, 
+.questcontainer, .questcategory p, .questinformationcontainer, .manualcontainer, .charactercontainer,
+.ranktable, .profilecontainer, .laddercontainer, .clancontainer, .changepass, .changeemail, .submit,
+.signin, .register, .changeavatarbutton, .avatarcontainer1, .avatarcontainer2, .avatarcontainer3, .recruitbutton,
+.acceptdeclinebutton, .memberlistbutton, .createclanbutton, .inclancontainer, .inclancontainer2,
+.changeingamebutton, .changebackgroundbutton, .changebackground, .resetbutton, .forgotpass,
+.sublabel, .loginlabel,.passlabel {
   transition: all .3s ease-in-out;
 }
 
 .tournamentdetails:hover {
   transform: scale(1.1);
+}
+
+.questcategory img:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+ 
+}
+
+.questcategory img:hover + .categorytitle {
+  color: #d6d6d6;
+}
+
+.hide1, .hide2 {
+  display: none;
+}
+
+.questcontainer:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+}
+
+.questcontainer:hover > a .viewquest {
+  color: #d6d6d6;
+}
+
+.questinformationcontainer:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+}
+
+.manualcontainer:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+}
+
+.charactercontainer:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+}
+
+.characteroverviewpictureanddescription:hover > .viewcharacter {
+  color: #d6d6d6
+}
+
+.ranktable:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+}
+
+.ranktable tr:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+}
+
+.ranktable tbody:hover, .gametable tbody:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+}
+
+.profilecontainer:hover, .laddercontainer:hover, .clancontainer:hover, .changepass:hover,
+.changeemail:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+}
+
+.submit:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+  background-color: #dddddd00;
+  border: 1px solid #e87b2a;
+  transform: scale(1.05);
+}
+
+.signin:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+
+}
+
+.register:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+}
+
+
+.changeavatarbutton:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+  background-color: #dddddd00;
+  border: 1px solid #e87b2a;
+}
+
+.avatarcontainer1:hover, .avatarcontainer2:hover, .avatarcontainer3:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+}
+
+.clanpanellist:hover, .clanpanellist2:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+
+}
+
+.clanpanellist2 {
+  cursor: pointer;
+}
+
+.acceptdeclinebutton:hover, .recruitbutton:hover, .memberlistbutton:hover, .createclanbutton:hover,
+.changebackgroundbutton:hover, .changeingamebutton:hover, .resetbutton:hover, .forgotpass:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+  background-color: #dddddd00;
+  border: 1px solid #e87b2a;
+}
+
+.inclancontainer:hover, .inclancontainer2:hover, .changebackground:hover, .sublabel:hover, .loginlabel:hover,
+.passlabel:hover {
+  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
 }
