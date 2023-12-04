@@ -121,3 +121,14 @@ var images = [
         $(".tournamentnews").load("./news/tournamentgrab.html .tournamentnews2");
 
         $(".playerspotlightnews").load("./news/playerspotlightgrab.html .tournamentnews2");
+
+
+        function swapStyleSheet(sheet){
+            document.getElementById('pagestyle').setAttribute('href', sheet);
+        
+            window.localStorage.setItem("pagestyle", sheet);
+        }
+        
+        window.onload = function() {
+            swapStyleSheet(window.localStorage.getItem("pagestyle"));
+        }

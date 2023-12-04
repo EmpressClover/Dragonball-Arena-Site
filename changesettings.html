@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dragon Ball Arena Change Settings</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" id="pagestyle">
 </head>
 <body>
     <div class="nav">
@@ -111,7 +111,8 @@
    <form action="   ">
 
     <div class="changeemail">
-        <p class="changemail">Change Email</p>
+  
+            <p class="changemail">Change Email</p>
 
         <fieldset>
         <label for="current_email" class="settingfields">Current Email</label>
@@ -135,8 +136,23 @@
     </fieldset>
 
 </form>
-  
 
+    <div class="csscontainer">
+      <p class="changemail">Change Website Theme</p>
+      <div class="insidecssctonainer">
+        <a id="navLinks" onclick="swapStyleSheet('index.css')">Dragon Ball Orange</a>
+        <br><br>
+        <a id="navLinks" onclick="swapStyleSheet('dark.css')">Dragon Ball Dark</a>
+        <br><br>
+        <a id="navLinks" onclick="swapStyleSheet('dark.css')">Frieza Purple</a>
+        <br><br>
+        <a id="navLinks" onclick="swapStyleSheet('dark.css')">Goku Black</a>
+        <br><br>
+        <a id="navLinks" onclick="swapStyleSheet('dark.css')">Android Blue</a>
+        <br><br>
+        <a id="navLinks" onclick="swapStyleSheet('dark.css')">Majin Pink</a>
+      </div>
+    </div>
 
   <footer>
     <p>© 2023 Dragon Ball Arena. "Dragon Ball" is a trademark of Bird Studio/Shueisha, Fuji TV, and Toei Animation.</p>

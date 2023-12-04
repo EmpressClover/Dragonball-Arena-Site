@@ -8,7 +8,7 @@
     margin: 0px;
     background-image: url(images/bgpattern.png);
      background-size: 1400px 1400px;
-     background-color: #e7e7e7;
+     background-color: #131313;
      min-height: 100%;
      height: auto !important;
      height: 100%;
@@ -22,7 +22,7 @@
   .nav {
     height: 60px;
     width: 100%;
-    background-color: #e7e7e7;
+    background-color: #131313;
     position: relative;
   }
   
@@ -44,7 +44,7 @@
   .nav > .nav-links > ul li a{
     display: block;
     padding: 0 8px;
-    color: #0c0c15;
+    color: #e87b2a;
     line-height: 60px;
     font-size: 25px;
     text-decoration: none;
@@ -115,7 +115,7 @@
 .register {
   background-color: #0e0e0e00;
   border: 1px solid #e87b2a;
-  color: #0c0c15;
+  color: #e87b2a;
   padding: 1px 24px;
   text-align: center;
   text-decoration: none;
@@ -241,7 +241,7 @@
   margin-left: 150px;
   margin-top: 180px;
   text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
-  color: #e7e7e7 
+  color: #e87b2a;
 }
 
 
@@ -254,7 +254,7 @@
   margin-left: 50px;
   margin-top: 260px;
   text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
-  color: #e7e7e7;
+  color: #e87b2a;
   text-transform: uppercase;
 
 }
@@ -275,7 +275,7 @@
   margin-left: 256px;
   margin-top: 351px;
   text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
-  color: #e7e7e7;
+  color: #e87b2a;
   background: #0c0c15;
   padding: 3px 10px 3px 10px;
 }
@@ -289,7 +289,7 @@
   margin-left: 345px;
   margin-top: 383px;
   text-shadow: 3px 4px 4px rgba(12,12,21,0.4);
-  color: #e7e7e7;
+  color: #e87b2a;
   background: #0c0c15;
   padding: 0px 10px 3px 10px;
 }
@@ -301,7 +301,7 @@
 }
 
 .dragonballtext {
-  color: #e87b2a;
+  color: #d3d3d3;
 }
 
 
@@ -422,7 +422,7 @@
   font-family: 'anton', 'sans sherif';
   text-align: center;
   font-size: 37px;
-  color: #e7e7e7;
+  color: #131313;
   width: 100%; height: 60px;
   border-style: solid;
   border-color: #e87b2a;
@@ -508,7 +508,7 @@
   font-size: 21px;
   font-family: 'anton','sans-serif';
   background-color: #0c0c15;
-  color: #e7e7e7;
+  color: #131313;
 margin-top: -24px;
 margin-left: 20px;
   padding-left: 5px;
@@ -573,7 +573,7 @@ margin-left: 20px;
   font-size: 25px;
   font-family: 'anton','sans-serif';
   background-color: #e87b2a;
-  color: #e7e7e7;
+  color: #131313;
   text-align: center;
   margin-top: 0px;
 }
@@ -597,7 +597,7 @@ margin-left: 20px;
   font-size: 25px;
   font-family: 'anton','sans-serif';
   background-color: #e87c2a00;
-  color: #0c0c15;
+  color: #e87b2a;
   margin-top: 1px;
   float: left;
   margin-left: 6px;
@@ -609,8 +609,8 @@ margin-left: 20px;
   height: 36px;
   font-size: 25px;
   font-family: 'anton','sans-serif';
-  background-color: #0c0c15;
-  color: #e87b2a;
+  background-color: #d6d6d6;
+  color: #0c0c15;
   text-align: center;
   margin-top: 0px;
 }
@@ -739,7 +739,7 @@ margin: auto;
 
 .newsdescription {
   font-family: 'roboto','sans-serif';
-  color: #e7e7e7;
+  color: #d6d6d6;
   position: relative;
   margin-left: 38px;
   left: -45px;
@@ -754,7 +754,7 @@ margin: auto;
 
 .newsdescription2 {
   font-family: 'roboto','sans-serif';
-  color: #e7e7e7;
+  color: #d6d6d6;
   position: relative;
   z-index: 2;
   overflow: hidden;
@@ -769,7 +769,7 @@ margin: auto;
 .newsdate {
   font-family: 'roboto','sans-serif';
   font-size: 14px;
-  color: #e7e7e7;
+  color: #d6d6d6;
   position: relative;
   margin-left: 38px;
   left: -45px;
@@ -781,7 +781,7 @@ margin: auto;
 .tournamentdate {
   font-family: 'roboto','sans-serif';
   font-size: 14px;
-  color: #e7e7e7;
+  color: #d6d6d6;
   position: relative;
   text-align: center;
   z-index: 2;
@@ -789,8 +789,8 @@ margin: auto;
 }
 
 footer {
-  background-color: #dddddd;
-  color: #0c0c15;
+  background-color: #050505;
+  color: #e6e6e6;
   font-family: 'Roboto', 'sans-serif';
   font-style: italic;
   font-weight: 100;
@@ -822,6 +822,7 @@ footer {
   margin: auto;
   margin-top: 15px;
   padding-bottom: 25px;
+  color: #e87b2a
 }
 
 .changepassword, .changemail {
@@ -835,6 +836,7 @@ footer {
   display: block;
   margin-top: auto;
   margin-bottom: -10px;
+  color: #050505;
 }
 
 .sublabel {
@@ -888,6 +890,7 @@ footer {
   margin : 0 auto;
   margin-top: 15px;
   text-align: center;
+  color: #e87b2a;
  }
 
 
@@ -913,6 +916,7 @@ footer {
   font-family: 'roboto','sans-serif';
   font-size: 15px;
   margin-top: 24px;
+  color: #e87b2a;
  }
 
  .settingfields {
@@ -997,7 +1001,7 @@ footer {
   max-width: 515px;
   width: 100%;
   height: 30px;
-  background-color: #0c0c15;
+  background-color: #050505;
   border: 1px solid #0c0c15;
   margin-top: -9px;
   color:#e87b2a;
@@ -1013,6 +1017,9 @@ footer {
   margin-top: 10px;
   text-align: center;
   justify-content: center;
+  background-color: #050505;
+  color: #e87b2a;
+  border-color: #e87b2a;
  }
 
  .insidequest {
@@ -1037,11 +1044,13 @@ footer {
   float: left;
   flex-direction: column;
   padding-bottom: 6px;
+  color: #e87b2a;
  }
 
  .questinformation, .questreward {
   max-width: 405px;
   width: 100%;
+  color:#050505;
   background-color: #e87b2a;
   font-family: 'anton','sans-serif';
   font-size: 20px;
@@ -1099,6 +1108,7 @@ footer {
   border: 1px solid #e87b2a;
   margin: 0 auto;
   margin-top: 20px;
+  color: #e87b2a;
  }
 
  .manualnamelabel {
@@ -1111,6 +1121,7 @@ footer {
   margin-top: auto;
   font-family: 'anton','sans-serif';
   font-size: 18px;
+  color:#050505;
 }
 
 .manualdescription {
@@ -1179,6 +1190,7 @@ footer {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  color: #e87b2a;
 }
 
 .viewcharacter {
@@ -1212,10 +1224,10 @@ padding-bottom: 5px;
 
 .categorytitle {
   width: 250px;
-  background-color: #0c0c15;
+  background-color: #e87b2a;
   font-family: 'anton','sans-serif';
   font-size: 20px;
-  color:#e87b2a;
+  color:#050505;
   text-transform: uppercase;
   text-align: center;
   margin-top: 0;
@@ -1270,9 +1282,10 @@ padding-bottom: 5px;
   margin-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #d6d6d6;
-  border-top: 1px dotted #0c0c15;
-  border-bottom: 1px dotted #0c0c15;
+  background-color: #d6d6d600;
+  border-top: 1px dotted #e87b2a;
+  border-bottom: 1px dotted #e87b2a;
+  color: #e87b2a;
 }
 
 .insidequestunlock {
@@ -1280,6 +1293,7 @@ padding-bottom: 5px;
   font-size: 14px;
   margin-top: -7px;
   margin-left: 12px;
+  color: #e87b2a;
 }
 
 .insidequestname {
@@ -1287,7 +1301,8 @@ padding-bottom: 5px;
   font-size: 14px;
   margin-top: -7px;
   margin-left: 3px;
-  color: #0f0f0f;
+  color: #131313;
+  color: rgb(177, 177, 177);
 }
 
 .characterskillsinside {
@@ -1345,9 +1360,10 @@ padding-bottom: 5px;
   margin-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #d6d6d6;
-  border-top: 1px dotted #0c0c15;
-  border-bottom: 1px dotted #0c0c15;
+  background-color: #05050500;
+  border-top: 1px dotted #e87b2a;
+  border-bottom: 1px dotted #e87b2a;
+  color: #e87b2a;
 }
 
 .cooldown {
@@ -1355,8 +1371,8 @@ padding-bottom: 5px;
   font-size: 13px;
     margin-left: 10px;
     margin-top: -7px;
-    background-color: #0c0c15;
-    color: #d6d6d6;
+    background-color: #d6d6d6;
+    color: #050505;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -1388,7 +1404,7 @@ padding-bottom: 5px;
   font-size: 13px;
     margin-left: 10px;
     margin-top: -7px;
-    color: #0c0c15;
+    color: #e87b2a;
     border: 1px solid #e87b2a;
     padding-left: 5px;
     padding-right: 5px;
@@ -1425,12 +1441,14 @@ padding-bottom: 5px;
   text-align: center;
   font-family: 'roboto','sans-serif';
   font-size: 20px;
-  border: 1px solid #0c0c15;
+  border: 1px solid #e87b2a;
+  color: #e87b2a;
 }
 
 .ladderextra {
   font-family: 'roboto','sans-serif';
   text-align: center;
+  color: #e87b2a;
 }
 
 .useravatar {
@@ -1456,7 +1474,7 @@ padding-bottom: 5px;
 
 .topusername {
   background-color: #04aa6d00;
-  color: #0c0c15;
+  color: #e87b2a;
   font-size: 16px;
   border: none;
   font-family: 'anton','sans-serif';
@@ -1483,21 +1501,22 @@ padding-bottom: 5px;
   height: 0; 
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid rgb(0, 0, 0);
+  border-top: 10px solid #e87b2a;
+  color: #c96b24;
 }
 
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #131313;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   border: 1px solid #0c0c15;
 }
 
 
 .dropdown-content a {
-  color: black;
+  color: #e87b2a;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -1507,12 +1526,15 @@ padding-bottom: 5px;
 }
 
 
-.dropdown-content a:hover {background-color: #e87b2a;}
+.dropdown-content a:hover {background-color: #e87b2a; color:white;}
 
 
 .dropdown:focus-within .dropdown-content {display: block;}
 
-.dropdown:focus-within .topusername, .dropdown:hover .topusername {background-color: #e87b2a;}
+.dropdown:focus-within .topusername, .dropdown:hover .topusername {
+    background-color: #e87c2a00;
+    border: 1px solid #c96b24;
+}
 
 
 .topprofile {
@@ -1530,6 +1552,11 @@ padding-bottom: 5px;
   border: 1px solid #e87b2a;
   margin: 0 auto;
   margin-top: 20px;
+  color: #e87b2a;
+ }
+
+ .profilegame {
+    color: #e87b2a;
  }
 
 
@@ -1541,6 +1568,7 @@ padding-bottom: 5px;
   border: 1px solid #e87b2a;
   margin: 0 auto;
   margin-top: 20px;
+  color: #e87b2a;
  }
 
 .profilelabel,.ladderlabel,.clanlabel,.claninvlabel {
@@ -1553,6 +1581,7 @@ padding-bottom: 5px;
   margin-top: auto;
   font-family: 'anton','sans-serif';
   font-size: 25px;
+  color: #050505;
 }
 
 .profiletext, .clantext {
@@ -1634,29 +1663,28 @@ padding-bottom: 5px;
 
 .dateth {
   width: 224px;
-  background-color: #000000;
-  border: 1px solid #0c0c15;
-  color: #e87b2a;
+  background-color: #e87b2a;
+  border: 1px solid #e87b2a;
+  color: #050505;
 }
 
 .timeth {
   width: 224px;
-  background-color: #000000;
-  border: 1px solid #0c0c15;
-  color: #e87b2a;
+  background-color: #e87b2a;
+  border: 1px solid #e87b2a;
+  color: #050505;
 }
 
 .battleth {
   width: 1001px;
   background-color: #ebebeb;
-  border: 1px solid #0c0c15;
 }
 
 .winnerth {
   width: 460px;
-  background-color: #000000;
-  border: 1px solid #0c0c15;
-  color: #e87b2a;
+  background-color: #e87b2a;
+  border: 1px solid #e87b2a;
+  color: #050505;
 }
 
 .gamestext {
@@ -1672,7 +1700,7 @@ padding-bottom: 5px;
   text-align: center;
   font-family: 'roboto','sans-serif';
   font-size: 20px;
-  border: 1px solid #0c0c15;
+  border: 1px solid #e87b2a;
 }
 
 fieldset {
@@ -1745,6 +1773,7 @@ fieldset {
   margin-top: auto;
   font-family: 'roboto','sans-serif';
   font-size: 14px;
+  color: #e87b2a;
 }
 
 
@@ -1893,6 +1922,7 @@ fieldset {
   font-size: 15px;
   font-family: 'roboto','serif-sans';
   margin-bottom: -19px;
+  color:#e87b2a
  }
 
  .clanpanellist {
@@ -1982,6 +2012,7 @@ fieldset {
   font-size: 15px;
   margin-top: -17px;
   text-align: center;
+  color:#e87b2a
  }
 
 
@@ -2020,8 +2051,8 @@ fieldset {
 .clantd {
   font-family: 'roboto','sans-serif';
   background-color: #00000000;
-  border: 1px solid #0c0c15;
-  color: #0c0c15;
+  border: 1px solid #e87b2a;
+  color: #e87b2a;
   padding-top: 6px;
   padding-bottom: 6px;
   text-align: center;
@@ -2054,6 +2085,7 @@ fieldset {
 
 .recruitcontainer span{
   font-family: 'roboto';
+  color: #e87b2a;
 }
 
 .recruitcontainer input {
@@ -2160,7 +2192,9 @@ fieldset {
 }
 
 
-
+.playerspotlightcontainer p{
+    color: #d6d6d6;
+}
 
 .playerspotlightcontainer img {
   width: 75px;
@@ -2206,6 +2240,7 @@ fieldset {
   z-index: 2;
   margin-top: -6px;
   margin-left: 167px;
+  color: #050505 !important;
 }
 
 .playerspotlightdetails4::after {
@@ -2272,7 +2307,7 @@ fieldset {
 }
 
 .playerspotlightcontainer:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 .ranktop5:hover {
@@ -2297,12 +2332,13 @@ fieldset {
 }
 
 .questcategory img:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
  
 }
 
 .questcategory img:hover + .categorytitle {
-  color: #d6d6d6;
+    background-color: #050505;
+    color:#e87b2a;
 }
 
 .hide1, .hide2 {
@@ -2310,23 +2346,24 @@ fieldset {
 }
 
 .questcontainer:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 .questcontainer:hover > a .viewquest {
-  color: #d6d6d6;
+  color: #050505;
+  background-color: #c96b24;
 }
 
 .questinformationcontainer:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 .manualcontainer:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 .charactercontainer:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 .characteroverviewpictureanddescription:hover > .viewcharacter {
@@ -2334,51 +2371,52 @@ fieldset {
 }
 
 .ranktable:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 .ranktable tr:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 .ranktable tbody:hover, .gametable tbody:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 .profilecontainer:hover, .laddercontainer:hover, .clancontainer:hover, .changepass:hover,
 .changeemail:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 .submit:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
   background-color: #dddddd00;
   border: 1px solid #e87b2a;
   transform: scale(1.05);
+  color: #e87b2a;
 }
 
 .signin:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 
 }
 
 .register:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 
 .changeavatarbutton:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
   background-color: #dddddd00;
   border: 1px solid #e87b2a;
 }
 
 .avatarcontainer1:hover, .avatarcontainer2:hover, .avatarcontainer3:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 .clanpanellist:hover, .clanpanellist2:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 
 }
 
@@ -2388,15 +2426,16 @@ fieldset {
 
 .acceptdeclinebutton:hover, .recruitbutton:hover, .memberlistbutton:hover, .createclanbutton:hover,
 .changebackgroundbutton:hover, .changeingamebutton:hover, .resetbutton:hover, .forgotpass:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
   background-color: #dddddd00;
   border: 1px solid #e87b2a;
+  color: #e87b2a;
 }
 
 .inclancontainer:hover, .inclancontainer2:hover, .changebackground:hover, .sublabel:hover, .loginlabel:hover,
 .passlabel:hover, .characterdescriptioninside:hover, .skilldescriptioninside:hover, .skillnameinside:hover,
 .characternameinside:hover, .classesinside:hover, .cooldown:hover {
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
 }
 
 .insidequestname:hover {
@@ -2436,7 +2475,8 @@ fieldset {
 }
 
 .csscontainer a:hover{
-  box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.247);
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.247);
   background-color: #dddddd00;
   border: 1px solid #e87b2a;
+  color: #e87b2a;
  }
