@@ -122,6 +122,17 @@ var images = [
 
         $(".playerspotlightnews").load("./news/playerspotlightgrab.html .tournamentnews2");
 
+        var initialLoad = true;
+        $(document).ready(function() {
+            if (initialLoad) {
+                $('head').append('<link rel="stylesheet" href="index.css" type="text/css" />');
+            } else {
+
+            }
+            initialLoad = false;
+        
+        });
+
 
         function swapStyleSheet(sheet){
             document.getElementById('pagestyle').setAttribute('href', sheet);
@@ -132,3 +143,6 @@ var images = [
         window.onload = function() {
             swapStyleSheet(window.localStorage.getItem("pagestyle"));
         }
+
+        var button = document.getElementsByClassName('topusername');
+        button.removeAttribute('style');
