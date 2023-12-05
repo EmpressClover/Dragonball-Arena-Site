@@ -1506,6 +1506,10 @@ padding-bottom: 5px !important;
   font-size: 16px !important;
 }
 
+.logoutbutton {
+  color: black !important;
+}
+.logoutbutton:hover {background-color: #a23eff !important;}
 
 .dropdown-content a:hover {background-color: #a23eff !important;}
 
@@ -1537,7 +1541,7 @@ padding-bottom: 5px !important;
   position: relative !important;
   max-width: 410px !important;
   width: 100% !important;
-  height: 158px !important;
+  height: 190px !important;
   border: 1px solid #a23eff !important;
   margin: 0 auto !important;
   margin-top: 20px !important;
@@ -1807,7 +1811,7 @@ fieldset {
   margin-bottom: 47px !important;
   margin-left: 158px !important;
   margin-right: 20px !important;
-  display: none !important;
+  display: none;
 }
 
 

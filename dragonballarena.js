@@ -110,12 +110,6 @@ var images = [
 
 
 
-      $(document).ready(
-        function() {
-            $(".defaultavy").click(function() {
-                $("#copied").hide().slideDown().delay(500).fadeOut();
-            });
-        });
 
 
         $(".tournamentnews").load("./news/tournamentgrab.html .tournamentnews2");
@@ -144,5 +138,10 @@ var images = [
             swapStyleSheet(window.localStorage.getItem("pagestyle"));
         }
 
-        var button = document.getElementsByClassName('topusername');
-        button.removeAttribute('style');
+        
+      $(document).ready(
+        function() {
+            $(".defaultavy").click(function() {
+                $("#copied").hide().slideDown().delay(500).fadeOut();
+            });
+        });

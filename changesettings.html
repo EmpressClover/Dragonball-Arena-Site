@@ -46,7 +46,9 @@
             <a href="clanpanel.html">Clan Panel</a>
             <a href="changebackgrounds.html">Change Backgrounds</a>
             <a href="resetaccount.html">Reset Account</a>
-            <a href="#">Logout</a>
+            <form class="" role="form" method="POST" action="   ">
+              <button class="logoutbutton" type="submit" name="" value="Logout">Logout</button>
+            </form>
           </div>
         </div>
 
@@ -83,13 +85,13 @@
             <p class="changepassword">Change Password</p>
             
             <fieldset>    
-            <label for="current_password" class="settingfields">Current Password</label>
+            <label for="currentpassword" class="settingfields">Current Password</label>
             <input type="password" id="currentpassword" name="current_password" value class="inputbox" title="Current Password">
 
-            <label for="new_password" class="settingfields">New Password</label>
+            <label for="changepassword" class="settingfields">New Password</label>
             <input type="password" id="changepassword" name="new_password" value class="inputbox" title="Change Password">
 
-            <label for="confirm_password" class="settingfields">Confirm New Password</label>
+            <label for="confirmpassword" class="settingfields">Confirm New Password</label>
             <input type="password" id="confirmpassword" name="confirm_password" value class="inputbox" title="Confirm Password">
             </fieldset>
             
@@ -99,8 +101,6 @@
     
         <fieldset>
             <input type="submit" name="submit" value="Submit" class="submit">
-            <input type="hidden" name="creation_time" value="  ">
-            <input type="hidden" name="form_token" value="  ">
         </fieldset>
 
    </form>
@@ -115,14 +115,14 @@
             <p class="changemail">Change Email</p>
 
         <fieldset>
-        <label for="current_email" class="settingfields">Current Email</label>
-        <input type="email" id="currentpassword" name="current_email" value class="inputbox" title="Current Email">
+        <label for="currentemail" class="settingfields">Current Email</label>
+        <input type="email" id="currentemail" name="current_email" value class="inputbox" title="Current Email">
 
-        <label for="new_email" class="settingfields">New Email</label>
-        <input type="email" id="changepassword" name="new_email" value class="inputbox" title="Change Email">
+        <label for="changeemail" class="settingfields">New Email</label>
+        <input type="email" id="changeemail" name="new_email" value class="inputbox" title="Change Email">
 
-        <label for="confirm_email" class="settingfields">Confirm New Email</label>
-        <input type="email" id="confirmpassword" name="confirm_email" value class="inputbox" title="Confirm Email">
+        <label for="confirmemail" class="settingfields">Confirm New Email</label>
+        <input type="email" id="confirmemail" name="confirm_email" value class="inputbox" title="Confirm Email">
         </fieldset>
 
     </div>
@@ -131,8 +131,6 @@
 
     <fieldset>
         <input type="submit" name="submit" value="Submit" class="submit">
-        <input type="hidden" name="creation_time" value="  ">
-        <input type="hidden" name="form_token" value="  ">
     </fieldset>
 
 </form>

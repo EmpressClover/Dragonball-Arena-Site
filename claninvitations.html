@@ -46,7 +46,9 @@
             <a href="clanpanel.html">Clan Panel</a>
             <a href="changebackgrounds.html">Change Backgrounds</a>
             <a href="resetaccount.html">Reset Account</a>
-            <a href="#">Logout</a>
+            <form class="" role="form" method="POST" action="   ">
+              <button class="logoutbutton" type="submit" name="" value="Logout">Logout</button>
+            </form>
           </div>
         </div>
 
@@ -77,10 +79,6 @@
   <div class="pagetitle"> Clan Invitations and Recruitment </div>
 
 
-
-  
-
-
       <div class="claninvitationcontainer">
         <p class="claninvlabel">Clan Invitations</p>
 
@@ -97,7 +95,6 @@
             <tr>
                 <td class="clantd">Clan Name Here</td>
                 <form role="form" action="  " method="POST">
-                    <input type="hidden" name="_token" value=" ">    
                     <input type="hidden" name="id" value="   ">
                     <td><button class="acceptdeclinebutton" onclick="return confirm('Are you sure you want to Accept?')" value="Accept" name="Accept">Accept</button>
                     <button class="acceptdeclinebutton" onclick="return confirm('Are you sure you want to Decline?')" value="Decline" name="Decline">Decline</button></td>
